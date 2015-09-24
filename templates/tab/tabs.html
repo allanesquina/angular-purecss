@@ -1,0 +1,8 @@
+<div class="pure-menu pure-menu-horizontal">
+    <ul class="pure-menu-list" >
+        <li class="pure-menu-item" ng-repeat="tab in tabs" ng-click="select(tab)">
+            <a class="pure-menu-link" href="">{{tab.title}}</a>
+        </li>
+    </ul>
+    <div class="content" ng-transclude></div>
+</div>

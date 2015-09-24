@@ -1,2 +1,4 @@
 ## angular-purecss
-Directives for purecss.io
+Pure CSS Angular Directives
+-- Coming soon
+[purecss.io](http://purecss.io)

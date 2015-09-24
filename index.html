@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Pure CSS Angular Directives</title>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/pure/0.6.0/pure-min.css">
+    <script src="https://code.angularjs.org/1.4.6/angular.js" charset="utf-8"></script>
+    <script src="src/components/button/button.js" charset="utf-8"></script>
+    <script src="src/components/tab/tab.js" charset="utf-8"></script>
+    <script src="src/app.js" charset="utf-8"></script>
+
+  </head>
+  <body ng-app="pc.demo">
+
+    <div ng-controller="pc.demo.ctr">
+        <pcButton link="http://purecss.io" target="_blank" disabled="true" type="primary" active="true">Pure CSS</pcButton>
+        <pcButton link="http://google.com" target="_blank" type="primary" active="true">{{name}}</pcButton>
+    </div>
+    <pcTabs>
+        <pcTab title="tab 1">
+
+            <pcButton link="http://purecss.io" target="_blank" disabled="true" type="primary" active="true">Pure CSS</pcButton>
+            Tab Content
+        </pcTab>
+        <pcTab title="tab 2">
+            <pcButton link="http://google.com" target="_blank" type="primary" >google</pcButton>
+            Tab Content 2
+        </pcTab>
+    </pcTabs>
+
+  </body>
+</html>
