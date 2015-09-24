@@ -8,7 +8,7 @@ directive('pctabs', function () {
         replace:true,
         restrict:'E',
         transclude:true,
-        templateUrl:'templates/tab/tabs.html',
+        templateUrl:'../templates/tab/tabs.html',
         scope:{},
         controller: tabsCtrl
     }
@@ -38,7 +38,7 @@ directive('pctabs', function () {
         replace:true,
         transclude:true,
         restrict:'E',
-        templateUrl:'templates/tab/tab.html',
+        templateUrl:'../templates/tab/tab.html',
         scope:{
             title:'@'
         },

@@ -5,7 +5,7 @@ angular.module('pc.component.button',[])
 
 .directive('pcbutton', function () {
    return {
-       templateUrl:'templates/button/button.html',
+       templateUrl:'../templates/button/button.html',
        replace:true,
        transclude:true,
        restrict: 'E',
