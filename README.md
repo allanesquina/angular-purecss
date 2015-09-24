@@ -1,2 +1,2 @@
-# angular-directives
-a simple angular-based directives demo
+## angular-purecss
+Directives for purecss.io
